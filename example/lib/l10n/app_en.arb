@@ -1,0 +1,55 @@
+{
+  "@@locale": "en",
+  "appTitle": "LangSwitch Demo",
+  "@appTitle": {
+    "description": "The application title shown in the app bar."
+  },
+  "greeting": "Hello, World!",
+  "@greeting": {
+    "description": "Home screen greeting."
+  },
+  "currentLanguage": "Current language: {lang}",
+  "@currentLanguage": {
+    "description": "Shows the active language name.",
+    "placeholders": {
+      "lang": {
+        "type": "String"
+      }
+    }
+  },
+  "itemCount": "{count, plural, =0{No items} =1{One item} other{{count} items}}",
+  "@itemCount": {
+    "description": "Demonstrates plural handling.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "todayDate": "Today: {date}",
+  "@todayDate": {
+    "description": "Shows today's date formatted for the locale.",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMMMd"
+      }
+    }
+  },
+  "pickLanguage": "Language",
+  "@pickLanguage": {
+    "description": "Button label for the language picker."
+  },
+  "openSystemSettings": "OS Language Settings",
+  "@openSystemSettings": {
+    "description": "Button label for the OS language settings screen."
+  },
+  "debugPanel": "Debug",
+  "@debugPanel": {
+    "description": "Section heading for the debug panel."
+  },
+  "debugValue": "value",
+  "debugResolved": "resolved",
+  "debugHasOverride": "hasOverride",
+  "debugPlatformSupport": "platform support"
+}

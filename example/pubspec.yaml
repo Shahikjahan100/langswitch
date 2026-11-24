@@ -1,0 +1,28 @@
+name: langswitch_example
+description: "Demonstrates how to use the langswitch plugin."
+publish_to: 'none'
+
+environment:
+  sdk: "^3.5.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.0
+  langswitch:
+    path: ../
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true

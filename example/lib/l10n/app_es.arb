@@ -1,0 +1,15 @@
+{
+  "@@locale": "es",
+  "appTitle": "Demo de LangSwitch",
+  "greeting": "¡Hola, mundo!",
+  "currentLanguage": "Idioma actual: {lang}",
+  "itemCount": "{count, plural, =0{Sin elementos} =1{Un elemento} other{{count} elementos}}",
+  "todayDate": "Hoy: {date}",
+  "pickLanguage": "Idioma",
+  "openSystemSettings": "Ajustes de idioma del SO",
+  "debugPanel": "Depuración",
+  "debugValue": "value",
+  "debugResolved": "resolved",
+  "debugHasOverride": "hasOverride",
+  "debugPlatformSupport": "soporte de plataforma"
+}

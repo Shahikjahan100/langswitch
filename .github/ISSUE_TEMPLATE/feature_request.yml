@@ -1,0 +1,44 @@
+name: Feature request
+description: Suggest a new capability or improvement.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the problem you are solving, not just the solution.
+        Feature requests are more likely to be accepted when they align with
+        the [goals](../../README.md#why-langswitch) of the package.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: >
+        Describe the situation where the current behavior is insufficient.
+        Concrete examples help.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: >
+        Describe what you would like to happen. Include a rough API sketch
+        if the change is public-facing.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you have considered
+      description: Other approaches you have tried or ruled out.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues and this is not a duplicate.
+          required: true
+        - label: This request is within the scope of langswitch (locale management, not translation).
+          required: true

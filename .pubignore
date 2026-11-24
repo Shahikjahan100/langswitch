@@ -1,0 +1,18 @@
+# Build artifacts
+build/
+.dart_tool/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# CI and GitHub
+.github/
+
+# Test coverage
+coverage/
+
+# Git
+.git/
+.gitignore

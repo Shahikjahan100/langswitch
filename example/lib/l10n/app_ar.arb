@@ -1,0 +1,15 @@
+{
+  "@@locale": "ar",
+  "appTitle": "عرض LangSwitch",
+  "greeting": "مرحبا بالعالم!",
+  "currentLanguage": "اللغة الحالية: {lang}",
+  "itemCount": "{count, plural, =0{لا توجد عناصر} =1{عنصر واحد} other{{count} عناصر}}",
+  "todayDate": "اليوم: {date}",
+  "pickLanguage": "اللغة",
+  "openSystemSettings": "إعدادات لغة نظام التشغيل",
+  "debugPanel": "تصحيح",
+  "debugValue": "value",
+  "debugResolved": "resolved",
+  "debugHasOverride": "hasOverride",
+  "debugPlatformSupport": "platform support"
+}
